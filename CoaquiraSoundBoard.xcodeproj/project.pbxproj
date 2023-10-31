@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79A88CC12AF19DDD008E2FAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A88CC02AF19DDD008E2FAF /* AppDelegate.swift */; };
+		79A88CC32AF19DDD008E2FAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A88CC22AF19DDD008E2FAF /* SceneDelegate.swift */; };
+		79A88CC52AF19DDD008E2FAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A88CC42AF19DDD008E2FAF /* ViewController.swift */; };
+		79A88CC82AF19DDD008E2FAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A88CC62AF19DDD008E2FAF /* Main.storyboard */; };
+		79A88CCB2AF19DDD008E2FAF /* CoaquiraSoundBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79A88CC92AF19DDD008E2FAF /* CoaquiraSoundBoard.xcdatamodeld */; };
+		79A88CCD2AF19DE1008E2FAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79A88CCC2AF19DE1008E2FAF /* Assets.xcassets */; };
+		79A88CD02AF19DE1008E2FAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A88CCE2AF19DE1008E2FAF /* LaunchScreen.storyboard */; };
+		79A88CD82AF1A3EC008E2FAF /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A88CD72AF1A3EC008E2FAF /* SoundViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		79A88CBD2AF19DDD008E2FAF /* CoaquiraSoundBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoaquiraSoundBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A88CC02AF19DDD008E2FAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79A88CC22AF19DDD008E2FAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		79A88CC42AF19DDD008E2FAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79A88CC72AF19DDD008E2FAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79A88CCA2AF19DDD008E2FAF /* CoaquiraSoundBoard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoaquiraSoundBoard.xcdatamodel; sourceTree = "<group>"; };
+		79A88CCC2AF19DE1008E2FAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79A88CCF2AF19DE1008E2FAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79A88CD12AF19DE1008E2FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79A88CD72AF1A3EC008E2FAF /* SoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79A88CBA2AF19DDD008E2FAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79A88CB42AF19DDC008E2FAF = {
+			isa = PBXGroup;
+			children = (
+				79A88CBF2AF19DDD008E2FAF /* CoaquiraSoundBoard */,
+				79A88CBE2AF19DDD008E2FAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79A88CBE2AF19DDD008E2FAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79A88CBD2AF19DDD008E2FAF /* CoaquiraSoundBoard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79A88CBF2AF19DDD008E2FAF /* CoaquiraSoundBoard */ = {
+			isa = PBXGroup;
+			children = (
+				79A88CC02AF19DDD008E2FAF /* AppDelegate.swift */,
+				79A88CC22AF19DDD008E2FAF /* SceneDelegate.swift */,
+				79A88CC42AF19DDD008E2FAF /* ViewController.swift */,
+				79A88CC62AF19DDD008E2FAF /* Main.storyboard */,
+				79A88CCC2AF19DE1008E2FAF /* Assets.xcassets */,
+				79A88CCE2AF19DE1008E2FAF /* LaunchScreen.storyboard */,
+				79A88CD12AF19DE1008E2FAF /* Info.plist */,
+				79A88CC92AF19DDD008E2FAF /* CoaquiraSoundBoard.xcdatamodeld */,
+				79A88CD72AF1A3EC008E2FAF /* SoundViewController.swift */,
+			);
+			path = CoaquiraSoundBoard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79A88CBC2AF19DDD008E2FAF /* CoaquiraSoundBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A88CD42AF19DE1008E2FAF /* Build configuration list for PBXNativeTarget "CoaquiraSoundBoard" */;
+			buildPhases = (
+				79A88CB92AF19DDD008E2FAF /* Sources */,
+				79A88CBA2AF19DDD008E2FAF /* Frameworks */,
+				79A88CBB2AF19DDD008E2FAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoaquiraSoundBoard;
+			productName = CoaquiraSoundBoard;
+			productReference = 79A88CBD2AF19DDD008E2FAF /* CoaquiraSoundBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79A88CB52AF19DDD008E2FAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					79A88CBC2AF19DDD008E2FAF = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 79A88CB82AF19DDD008E2FAF /* Build configuration list for PBXProject "CoaquiraSoundBoard" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79A88CB42AF19DDC008E2FAF;
+			productRefGroup = 79A88CBE2AF19DDD008E2FAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79A88CBC2AF19DDD008E2FAF /* CoaquiraSoundBoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79A88CBB2AF19DDD008E2FAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A88CD02AF19DE1008E2FAF /* LaunchScreen.storyboard in Resources */,
+				79A88CCD2AF19DE1008E2FAF /* Assets.xcassets in Resources */,
+				79A88CC82AF19DDD008E2FAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79A88CB92AF19DDD008E2FAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A88CC52AF19DDD008E2FAF /* ViewController.swift in Sources */,
+				79A88CCB2AF19DDD008E2FAF /* CoaquiraSoundBoard.xcdatamodeld in Sources */,
+				79A88CC12AF19DDD008E2FAF /* AppDelegate.swift in Sources */,
+				79A88CC32AF19DDD008E2FAF /* SceneDelegate.swift in Sources */,
+				79A88CD82AF1A3EC008E2FAF /* SoundViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		79A88CC62AF19DDD008E2FAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79A88CC72AF19DDD008E2FAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79A88CCE2AF19DE1008E2FAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79A88CCF2AF19DE1008E2FAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79A88CD22AF19DE1008E2FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79A88CD32AF19DE1008E2FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79A88CD52AF19DE1008E2FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoaquiraSoundBoard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = empresa.CoaquiraSoundBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79A88CD62AF19DE1008E2FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoaquiraSoundBoard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = empresa.CoaquiraSoundBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79A88CB82AF19DDD008E2FAF /* Build configuration list for PBXProject "CoaquiraSoundBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A88CD22AF19DE1008E2FAF /* Debug */,
+				79A88CD32AF19DE1008E2FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79A88CD42AF19DE1008E2FAF /* Build configuration list for PBXNativeTarget "CoaquiraSoundBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A88CD52AF19DE1008E2FAF /* Debug */,
+				79A88CD62AF19DE1008E2FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		79A88CC92AF19DDD008E2FAF /* CoaquiraSoundBoard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				79A88CCA2AF19DDD008E2FAF /* CoaquiraSoundBoard.xcdatamodel */,
+			);
+			currentVersion = 79A88CCA2AF19DDD008E2FAF /* CoaquiraSoundBoard.xcdatamodel */;
+			path = CoaquiraSoundBoard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 79A88CB52AF19DDD008E2FAF /* Project object */;
+}
